@@ -27,7 +27,7 @@ const Home = () => {
           className="text-5xl md:text-7xl font-bold mb-4"
         >
           Hi, I'm{" "}
-          <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-red-600 to-yellow-700 bg-clip-text text-transparent">
             Mastewal Alebel
           </span>
         </motion.h1>
