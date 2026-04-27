@@ -16,10 +16,16 @@ const Home = () => {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-          className="w-40 h-40 mx-auto rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center mb-8"
+          className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-gradient-to-tr from-blue-500 to-purple-500 flex items-center justify-center mb-8"
         >
-          <span className="text-6xl">👩‍💻</span>
+          <img
+            src="/1.jpg" // ✅ image from public folder
+            alt="Mastewal Alebel"
+            className="w-full h-full object-cover"
+          />
         </motion.div>
+
+        {/* the rest remains exactly the same */}
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -31,6 +37,7 @@ const Home = () => {
             Mastewal Alebel
           </span>
         </motion.h1>
+
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -40,6 +47,7 @@ const Home = () => {
           Frontend Developer • UI Enthusiast • Creative Problem Solver and also
           passionate the web development.
         </motion.p>
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
