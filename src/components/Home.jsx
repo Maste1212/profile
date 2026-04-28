@@ -26,26 +26,30 @@ const Home = () => {
         </motion.div>
 
         {/* the rest remains exactly the same */}
+
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
-          className="text-5xl md:text-7xl font-bold mb-4"
+          className="text-5xl md:text-7xl font-extrabold mb-2 tracking-tight"
         >
-          Hi, I'm{" "}
-          <span className="bg-gradient-to-r from-red-600 to-yellow-700 bg-clip-text text-transparent">
-            Mastewal Alebel
-          </span>
+          I am <span className="bg-gradient-to-r from-red-600 to-yellow-700 bg-clip-text text-transparent">Mastewal Alebel</span>
         </motion.h1>
-
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          className="text-lg md:text-2xl text-gray-200 mb-6 font-medium"
+        >
+          Front End Developer & IT Student
+        </motion.p>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
-          className="text-xl text-gray-300 mb-8"
+          className="text-base md:text-lg text-gray-400 mb-8"
         >
-          Frontend Developer • UI Enthusiast • Creative Problem Solver and also
-          passionate the web development.
+          Welcome to my portfolio! I am passionate about building beautiful, modern web applications and always eager to learn new technologies. Let’s create something amazing together!
         </motion.p>
 
         <motion.div

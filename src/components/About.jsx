@@ -9,7 +9,7 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold text-center mb-12"
+          className="text-4xl md:text-5xl font-bold text-center mb-12 about-title"
         >
           About <span className="text-purple-400">Me</span>
         </motion.h2>
@@ -20,19 +20,14 @@ const About = () => {
           viewport={{ once: true }}
           className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 space-y-4"
         >
-          <p className="text-gray-300 text-lg leading-relaxed">
-            I'm a passionate frontend developer with 3+ years of experience
-            building modern web applications. I love creating smooth, animated
-            user interfaces that are both beautiful and functional.
+          <p className="about-text text-gray-300 text-lg leading-relaxed">
+            I am a <span className="text-blue-300 font-semibold">3rd-year IT student</span> at Bahir Dar University.
           </p>
-          <p className="text-gray-300 text-lg leading-relaxed">
-            My journey started with HTML/CSS and evolved into mastering React,
-            Tailwind CSS, and Framer Motion. I believe great design and
-            performance go hand in hand.
+          <p className="about-text text-gray-300 text-lg leading-relaxed">
+            Passionate about <span className="text-green-300 font-semibold">website development</span> and building modern applications.
           </p>
-          <p className="text-gray-300 text-lg leading-relaxed">
-            When I'm not coding, I enjoy contributing to open source, writing
-            tech blogs, and exploring new frontend technologies.
+          <p className="about-text text-gray-300 text-lg leading-relaxed">
+            I am a passionate and dedicated IT student seeking an internship opportunity.
           </p>
         </motion.div>
       </div>

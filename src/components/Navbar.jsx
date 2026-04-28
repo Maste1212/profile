@@ -6,9 +6,10 @@ const Navbar = ({ activeSection }) => {
 
   const navItems = [
     { id: "home", label: "Home" },
-    { id: "skills", label: "Skills" },
-    { id: "contact", label: "Contact" },
     { id: "about", label: "About" },
+    { id: "skills", label: "Skills" },
+    { id: "projects", label: "Projects" },
+    { id: "contact", label: "Contact" },
   ];
 
   const scrollTo = (id) => {
